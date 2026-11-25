@@ -1,0 +1,1158 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>麻雀影院_麻雀影院官网在线观看_免费高清影视视频平台</title>
+<meta name="description" content="麻雀影院官方网站，专注于为观众提供高清、正版的影视视频内容与活跃的观影社区，汇聚原创影像、深度影评与创作者内容生态。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23151a1f'/%3E%3Cpath d='M20 18c6-4 14-4 20 0l6 5v20l-8 6H22l-6-6V23z' fill='%2323d18b'/%3E%3Ccircle cx='26' cy='30' r='3' fill='%23151a1f'/%3E%3Cpath d='M38 30l8 4-8 4z' fill='%23f7f7f2'/%3E%3C/svg%3E">
+<style>
+:root{
+  --spw-bg:#141a1f;
+  --spw-bg-2:#1b232a;
+  --spw-panel:#1f2830;
+  --spw-line:#2c3944;
+  --spw-text:#e8eeeb;
+  --spw-dim:#9aabb4;
+  --spw-accent:#28d98b;
+  --spw-accent-2:#57f0b6;
+  --spw-glow:rgba(40,217,139,.18);
+  --spw-warn:#f2b544;
+  --spw-radius:14px;
+  --spw-max:1180px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  background:
+    radial-gradient(1200px 600px at 85% -10%, rgba(40,217,139,.10), transparent 60%),
+    radial-gradient(900px 500px at 10% 10%, rgba(87,240,182,.06), transparent 55%),
+    var(--spw-bg);
+  color:var(--spw-text);
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,-apple-system,"Segoe UI",sans-serif;
+  line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit}
+h1,h2,h3,h4{line-height:1.35;margin:0}
+p{margin:0}
+ul,ol{margin:0;padding:0;list-style:none}
+
+.spw-topstrip{
+  position:sticky;top:0;z-index:80;
+  background:linear-gradient(90deg,#0f2b21,#123528 40%,#0f2b21);
+  border-bottom:1px solid rgba(40,217,139,.28);
+}
+.spw-topstrip-inner{
+  max-width:var(--spw-max);margin:0 auto;padding:8px 20px;
+  display:flex;align-items:center;gap:14px;flex-wrap:wrap;
+  font-size:13px;color:#bdf0d8;
+}
+.spw-topstrip-badge{
+  flex:0 0 auto;background:var(--spw-accent);color:#08201a;font-weight:700;
+  font-size:12px;padding:1px 9px;border-radius:99px;letter-spacing:.5px;
+}
+.spw-topstrip-text{flex:1 1 320px;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.spw-topstrip-link{color:var(--spw-accent-2);font-weight:600;flex:0 0 auto}
+.spw-topstrip-link:hover{text-decoration:underline}
+
+.spw-header{
+  position:sticky;top:33px;z-index:79;
+  background:rgba(20,26,31,.94);
+  backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--spw-line);
+}
+.spw-header-inner{
+  max-width:var(--spw-max);margin:0 auto;padding:12px 20px;
+  display:flex;align-items:center;gap:22px;
+}
+.spw-brand{display:flex;align-items:center;gap:10px;flex:0 0 auto}
+.spw-brand-logo{width:38px;height:38px;border-radius:11px;background:linear-gradient(145deg,#23d18b,#0e8c5c);display:grid;place-items:center;box-shadow:0 0 0 1px rgba(87,240,182,.35),0 6px 18px var(--spw-glow)}
+.spw-brand-logo svg{width:22px;height:22px}
+.spw-brand-name{font-size:19px;font-weight:800;letter-spacing:1px}
+.spw-brand-name span{color:var(--spw-accent)}
+.spw-brand-sub{font-size:11px;color:var(--spw-dim);letter-spacing:2px;display:block;margin-top:-4px}
+.spw-nav{display:flex;gap:4px;flex:1 1 auto;flex-wrap:wrap}
+.spw-nav a{font-size:14px;color:#cdd9d6;padding:7px 12px;border-radius:9px;transition:.18s}
+.spw-nav a:hover,.spw-nav a.is-active{color:#0b201a;background:var(--spw-accent);font-weight:600}
+.spw-header-tools{display:flex;align-items:center;gap:10px;flex:0 0 auto}
+.spw-search{position:relative;display:flex;align-items:center}
+.spw-search input{
+  width:190px;background:var(--spw-bg-2);border:1px solid var(--spw-line);border-radius:99px;
+  color:var(--spw-text);padding:8px 14px;font-size:13px;outline:none;transition:.2s;
+}
+.spw-search input:focus{border-color:var(--spw-accent);box-shadow:0 0 0 3px var(--spw-glow);width:220px}
+.spw-search-hint{
+  position:absolute;top:calc(100% + 8px);left:0;right:0;background:var(--spw-panel);
+  border:1px solid var(--spw-line);border-radius:10px;padding:8px 12px;font-size:12.5px;color:var(--spw-dim);
+  display:none;z-index:90;box-shadow:0 12px 28px rgba(0,0,0,.45);
+}
+.spw-search-hint.is-open{display:block}
+.spw-search-hint b{color:var(--spw-accent-2);font-weight:600}
+.spw-btn{
+  display:inline-flex;align-items:center;gap:7px;justify-content:center;
+  padding:9px 18px;border-radius:99px;font-size:13.5px;font-weight:600;transition:.2s;
+  border:1px solid transparent;
+}
+.spw-btn-primary{background:var(--spw-accent);color:#07231b}
+.spw-btn-primary:hover{background:var(--spw-accent-2);transform:translateY(-1px)}
+.spw-btn-ghost{border-color:var(--spw-line);color:var(--spw-text);background:rgba(255,255,255,.02)}
+.spw-btn-ghost:hover{border-color:var(--spw-accent);color:var(--spw-accent-2)}
+.spw-burger{display:none;width:38px;height:38px;border-radius:10px;border:1px solid var(--spw-line);align-items:center;justify-content:center}
+.spw-burger span{display:block;width:16px;height:2px;background:var(--spw-text);box-shadow:0 -5px 0 var(--spw-text),0 5px 0 var(--spw-text)}
+
+.spw-section{max-width:var(--spw-max);margin:0 auto;padding:52px 20px;scroll-margin-top:120px}
+.spw-sec-head{display:flex;align-items:flex-end;gap:16px;flex-wrap:wrap;margin-bottom:26px}
+.spw-sec-kicker{font-size:12px;letter-spacing:3px;color:var(--spw-accent);font-weight:700}
+.spw-sec-title{font-size:26px;font-weight:800;letter-spacing:.5px}
+.spw-sec-desc{color:var(--spw-dim);font-size:14px;max-width:640px}
+.spw-sec-line{flex:1 1 80px;height:1px;background:linear-gradient(90deg,var(--spw-line),transparent)}
+
+/* HERO */
+.spw-hero{
+  max-width:var(--spw-max);margin:0 auto;padding:44px 20px 20px;
+  display:grid;grid-template-columns:6fr 4fr;gap:34px;align-items:center;
+}
+.spw-hero-copy{min-width:0}
+.spw-hero-tagline{
+  display:inline-flex;align-items:center;gap:8px;font-size:12.5px;color:var(--spw-accent-2);
+  border:1px solid rgba(40,217,139,.35);background:rgba(40,217,139,.08);
+  padding:5px 14px;border-radius:99px;font-weight:600;letter-spacing:.5px;
+}
+.spw-hero h1{font-size:46px;line-height:1.18;margin:18px 0 14px;letter-spacing:1px;font-weight:900}
+.spw-hero h1 em{font-style:normal;color:var(--spw-accent)}
+.spw-hero-lead{color:#c3d2ce;font-size:16px;max-width:560px}
+.spw-hero-intro{
+  margin-top:18px;font-size:14.5px;color:var(--spw-dim);line-height:1.9;
+  border-left:2px solid var(--spw-accent);padding-left:14px;
+}
+.spw-hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}
+.spw-hero-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:28px}
+.spw-stat{background:linear-gradient(160deg,var(--spw-panel),rgba(31,40,48,.4));border:1px solid var(--spw-line);border-radius:12px;padding:14px 16px}
+.spw-stat b{display:block;font-size:24px;color:var(--spw-accent-2);font-weight:800;letter-spacing:.5px}
+.spw-stat small{color:var(--spw-dim);font-size:12.5px}
+.spw-hero-visual{position:relative;min-width:0}
+.spw-hero-visual svg{width:100%;height:auto;border-radius:20px;border:1px solid var(--spw-line);box-shadow:0 24px 60px rgba(0,0,0,.55)}
+.spw-hero-float{
+  position:absolute;left:-14px;bottom:22px;background:rgba(17,24,29,.92);border:1px solid rgba(40,217,139,.35);
+  border-radius:12px;padding:10px 14px;font-size:12.5px;color:#cdf3e3;display:flex;align-items:center;gap:8px;
+  box-shadow:0 12px 30px rgba(0,0,0,.5);
+}
+.spw-hero-float i{width:8px;height:8px;border-radius:50%;background:var(--spw-accent);box-shadow:0 0 0 4px rgba(40,217,139,.18);display:inline-block}
+
+/* keyword解析 */
+.spw-keyex{background:linear-gradient(180deg,rgba(27,35,42,.7),rgba(20,26,31,0));border-top:1px solid var(--spw-line);border-bottom:1px solid var(--spw-line)}
+.spw-keyex-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+.spw-keyex-card{background:var(--spw-panel);border:1px solid var(--spw-line);border-radius:var(--spw-radius);padding:22px 22px 20px}
+.spw-keyex-card h3{font-size:17px;margin-bottom:10px;color:var(--spw-accent-2)}
+.spw-keyex-card p{font-size:14px;color:#b9c8c4;line-height:1.95}
+.spw-keyex-card p+p{margin-top:9px}
+
+/* 焦点视频 */
+.spw-focus{display:grid;grid-template-columns:1fr 1fr;gap:26px;align-items:stretch}
+.spw-focus-main{background:var(--spw-panel);border:1px solid var(--spw-line);border-radius:18px;overflow:hidden;display:flex;flex-direction:column}
+.spw-focus-main svg{width:100%;height:auto}
+.spw-focus-body{padding:20px 22px 22px;display:flex;flex-direction:column;gap:12px;flex:1}
+.spw-focus-body h3{font-size:21px}
+.spw-focus-body p{font-size:14px;color:#b7c6c2}
+.spw-focus-meta{display:flex;gap:14px;font-size:12.5px;color:var(--spw-dim);flex-wrap:wrap}
+.spw-focus-list{display:flex;flex-direction:column;gap:14px}
+.spw-vrow{
+  display:grid;grid-template-columns:72px 1fr auto;gap:14px;align-items:center;
+  background:var(--spw-bg-2);border:1px solid var(--spw-line);border-radius:12px;padding:12px 14px;transition:.2s;min-width:0;
+}
+.spw-vrow:hover{border-color:rgba(40,217,139,.5);transform:translateX(3px);background:#212c34}
+.spw-vrow-thumb{width:72px;height:48px;border-radius:8px;overflow:hidden;flex:0 0 auto}
+.spw-vrow-thumb svg{width:100%;height:100%}
+.spw-vrow-text{min-width:0}
+.spw-vrow-text h4{font-size:14.5px;margin-bottom:3px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.spw-vrow-text small{font-size:12px;color:var(--spw-dim)}
+.spw-vrow-act{flex:0 0 auto}
+
+.spw-tags{display:flex;gap:8px;flex-wrap:wrap}
+.spw-tag{font-size:12px;color:var(--spw-accent-2);background:rgba(40,217,139,.1);border:1px solid rgba(40,217,139,.28);padding:2px 10px;border-radius:99px;white-space:nowrap}
+.spw-tag.is-plain{color:var(--spw-dim);background:rgba(255,255,255,.03);border-color:var(--spw-line)}
+
+.spw-video-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;margin-top:26px}
+.spw-vcard{background:var(--spw-panel);border:1px solid var(--spw-line);border-radius:16px;overflow:hidden;display:flex;flex-direction:column;transition:.22s;min-width:0}
+.spw-vcard:hover{transform:translateY(-4px);border-color:rgba(40,217,139,.45);box-shadow:0 18px 40px rgba(0,0,0,.45)}
+.spw-vcard svg{width:100%;height:auto}
+.spw-vcard-body{padding:16px 18px 18px;display:flex;flex-direction:column;gap:9px;flex:1}
+.spw-vcard-body h4{font-size:15.5px;line-height:1.5}
+.spw-vcard-body p{font-size:13px;color:#a9b9b5;line-height:1.7;flex:1}
+.spw-vcard-foot{display:flex;align-items:center;justify-content:space-between;gap:10px;font-size:12.5px;color:var(--spw-dim);flex-wrap:wrap}
+.spw-actions{display:flex;gap:6px;flex-wrap:wrap}
+.spw-act{
+  display:inline-flex;align-items:center;gap:5px;font-size:12.5px;color:#b6c6c1;
+  border:1px solid var(--spw-line);border-radius:99px;padding:4px 11px;transition:.18s;background:rgba(255,255,255,.02);
+}
+.spw-act:hover{border-color:var(--spw-accent);color:var(--spw-accent-2)}
+.spw-act.is-liked{background:rgba(40,217,139,.14);border-color:var(--spw-accent);color:var(--spw-accent-2)}
+.spw-act.is-saved{background:rgba(242,181,68,.14);border-color:var(--spw-warn);color:var(--spw-warn)}
+
+/* 专题 */
+.spw-special{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+.spw-special-card{background:linear-gradient(165deg,#1e2830,#171f25);border:1px solid var(--spw-line);border-radius:16px;padding:22px;position:relative;overflow:hidden}
+.spw-special-card::after{content:"";position:absolute;right:-40px;top:-40px;width:130px;height:130px;border-radius:50%;background:radial-gradient(circle,rgba(40,217,139,.16),transparent 70%)}
+.spw-special-card h3{font-size:18px;margin-bottom:8px}
+.spw-special-card>p{font-size:13.5px;color:#a9b9b5;margin-bottom:14px}
+.spw-special-status{display:inline-block;font-size:11.5px;padding:2px 10px;border-radius:99px;background:rgba(40,217,139,.14);color:var(--spw-accent-2);border:1px solid rgba(40,217,139,.3);margin-bottom:12px}
+.spw-special-status.spw-paused{background:rgba(242,181,68,.12);color:var(--spw-warn);border-color:rgba(242,181,68,.32)}
+.spw-special-list li{font-size:13.5px;color:#c5d3cf;padding:7px 0;border-bottom:1px dashed rgba(255,255,255,.07);display:flex;gap:9px;align-items:baseline}
+.spw-special-list li:last-child{border-bottom:none}
+.spw-special-list li::before{content:"▸";color:var(--spw-accent);font-size:11px}
+
+/* 作者 */
+.spw-authors{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.spw-author{background:var(--spw-panel);border:1px solid var(--spw-line);border-radius:16px;padding:20px;display:flex;gap:16px;transition:.2s;min-width:0}
+.spw-author:hover{border-color:rgba(40,217,139,.45);transform:translateY(-2px)}
+.spw-avatar{
+  flex:0 0 auto;width:56px;height:56px;border-radius:50%;display:grid;place-items:center;
+  font-size:20px;font-weight:800;color:#08201a;letter-spacing:1px;
+}
+.spw-author-body{min-width:0}
+.spw-author-body h3{font-size:16px;margin-bottom:4px}
+.spw-author-field{font-size:12.5px;color:var(--spw-accent-2);margin-bottom:6px}
+.spw-author-body p{font-size:13px;color:#a8b8b4;line-height:1.75}
+.spw-author-nums{display:flex;gap:14px;font-size:12px;color:var(--spw-dim);margin-top:9px;flex-wrap:wrap}
+.spw-author-more{font-size:12.5px;color:var(--spw-accent);margin-top:8px;display:inline-flex;align-items:center;gap:4px}
+
+/* 榜单 */
+.spw-rank{display:grid;grid-template-columns:1.2fr 1fr;gap:26px}
+.spw-rank-list{background:var(--spw-panel);border:1px solid var(--spw-line);border-radius:16px;padding:8px 18px}
+.spw-rank-item{display:grid;grid-template-columns:32px 1fr auto;gap:12px;align-items:center;padding:13px 0;border-bottom:1px dashed rgba(255,255,255,.07);min-width:0}
+.spw-rank-item:last-child{border-bottom:none}
+.spw-rank-no{font-size:16px;font-weight:800;color:var(--spw-dim);text-align:center}
+.spw-rank-item:nth-child(1) .spw-rank-no{color:#ffd75e}
+.spw-rank-item:nth-child(2) .spw-rank-no{color:#cfd8dd}
+.spw-rank-item:nth-child(3) .spw-rank-no{color:#e0a06a}
+.spw-rank-text{min-width:0}
+.spw-rank-text b{display:block;font-size:14px;font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.spw-rank-text small{font-size:12px;color:var(--spw-dim)}
+.spw-rank-heat{font-size:12.5px;color:var(--spw-accent-2);font-weight:600}
+.spw-reviews{display:flex;flex-direction:column;gap:12px}
+.spw-review{background:var(--spw-bg-2);border:1px solid var(--spw-line);border-left:3px solid var(--spw-accent);border-radius:10px;padding:14px 16px;min-width:0}
+.spw-review p{font-size:13.5px;color:#bfcecb;line-height:1.8}
+.spw-review-met{display:flex;justify-content:space-between;gap:10px;font-size:12px;color:var(--spw-dim);margin-top:8px;flex-wrap:wrap}
+.spw-review-met b{color:#dfe9e6;font-weight:600}
+
+/* 动态 + FAQ */
+.spw-two-col{display:grid;grid-template-columns:1fr 1fr;gap:26px}
+.spw-news{display:flex;flex-direction:column;gap:12px}
+.spw-news-item{background:var(--spw-panel);border:1px solid var(--spw-line);border-radius:12px;padding:15px 18px;transition:.2s}
+.spw-news-item:hover{border-color:rgba(40,217,139,.4)}
+.spw-news-item h4{font-size:14.5px;margin-bottom:5px}
+.spw-news-item p{font-size:13px;color:#a6b6b2}
+.spw-news-date{font-size:12px;color:var(--spw-accent);margin-top:6px;display:block}
+.spw-faq details{background:var(--spw-panel);border:1px solid var(--spw-line);border-radius:12px;margin-bottom:10px;overflow:hidden}
+.spw-faq summary{cursor:pointer;padding:14px 18px;font-size:14.5px;font-weight:600;list-style:none;display:flex;justify-content:space-between;gap:12px;align-items:center}
+.spw-faq summary::-webkit-details-marker{display:none}
+.spw-faq summary::after{content:"＋";color:var(--spw-accent);font-size:16px;transition:.2s}
+.spw-faq details[open] summary::after{content:"－"}
+.spw-faq details p{padding:0 18px 16px;font-size:13.5px;color:#a9b9b5;line-height:1.85}
+
+/* 投稿 */
+.spw-cta{
+  max-width:var(--spw-max);margin:0 auto 20px;padding:0 20px;
+}
+.spw-cta-inner{
+  background:linear-gradient(120deg,#183028,#1d2630 60%,#1a2a2e);
+  border:1px solid rgba(40,217,139,.3);border-radius:20px;padding:34px 30px;
+  display:grid;grid-template-columns:1.4fr auto;gap:22px;align-items:center;
+}
+.spw-cta-inner h2{font-size:24px;margin-bottom:8px}
+.spw-cta-inner p{font-size:14px;color:#a9bcb7;max-width:620px}
+.spw-cta-actions{display:flex;gap:12px;flex-wrap:wrap}
+
+/* 页脚 */
+.spw-footer{border-top:1px solid var(--spw-line);background:#101519;padding:44px 20px 20px;margin-top:26px}
+.spw-footer-inner{max-width:var(--spw-max);margin:0 auto;display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:30px}
+.spw-footer-brand p{font-size:13px;color:#8fa19d;margin-top:12px;max-width:320px;line-height:1.85}
+.spw-footer h4{font-size:13.5px;letter-spacing:1px;color:#dbe7e3;margin-bottom:12px}
+.spw-footer li{font-size:13px;color:#8fa19d;padding:4px 0}
+.spw-footer li a:hover{color:var(--spw-accent-2)}
+.spw-footer-bottom{
+  max-width:var(--spw-max);margin:30px auto 0;padding-top:18px;border-top:1px solid rgba(255,255,255,.07);
+  display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;font-size:12.5px;color:#778a86;
+}
+.spw-footer-bottom a{color:#8fa19d}
+.spw-footer-bottom a:hover{color:var(--spw-accent-2)}
+
+/* 弹窗 & toast */
+.spw-modal-mask{
+  position:fixed;inset:0;background:rgba(6,10,12,.72);backdrop-filter:blur(4px);
+  display:none;align-items:center;justify-content:center;padding:20px;z-index:120;
+}
+.spw-modal-mask.is-open{display:flex}
+.spw-modal{
+  background:#1b242b;border:1px solid var(--spw-line);border-radius:16px;
+  max-width:520px;width:100%;max-height:82vh;overflow:auto;padding:26px 26px 24px;position:relative;
+  box-shadow:0 30px 80px rgba(0,0,0,.6);
+}
+.spw-modal h3{font-size:19px;margin-bottom:12px;padding-right:26px}
+.spw-modal p{font-size:14px;color:#b5c5c1;line-height:1.85}
+.spw-modal-close{position:absolute;top:14px;right:14px;width:30px;height:30px;border-radius:50%;border:1px solid var(--spw-line);display:grid;place-items:center;font-size:15px;color:var(--spw-dim)}
+.spw-modal-close:hover{border-color:var(--spw-accent);color:var(--spw-accent-2)}
+.spw-modal-list{margin-top:14px;display:flex;flex-direction:column;gap:10px}
+.spw-modal-list li{font-size:13.5px;color:#b5c5c1;padding-left:16px;position:relative}
+.spw-modal-list li::before{content:"●";position:absolute;left:0;top:0;color:var(--spw-accent);font-size:8px;line-height:1.9}
+.spw-toast{
+  position:fixed;left:50%;bottom:34px;transform:translate(-50%,20px);opacity:0;
+  background:#232e36;border:1px solid rgba(40,217,139,.45);color:#d8f3e8;
+  padding:11px 22px;border-radius:99px;font-size:13.5px;z-index:200;transition:.3s;pointer-events:none;
+  box-shadow:0 14px 34px rgba(0,0,0,.5);white-space:nowrap;max-width:90vw;overflow:hidden;text-overflow:ellipsis;
+}
+.spw-toast.is-show{opacity:1;transform:translate(-50%,0)}
+.spw-backtop{
+  position:fixed;right:22px;bottom:26px;width:44px;height:44px;border-radius:50%;
+  background:var(--spw-accent);color:#07231b;display:grid;place-items:center;font-size:18px;font-weight:800;
+  box-shadow:0 12px 30px rgba(40,217,139,.35);opacity:0;pointer-events:none;transition:.28s;z-index:100;
+}
+.spw-backtop.is-show{opacity:1;pointer-events:auto}
+.spw-backtop:hover{transform:translateY(-3px)}
+
+@media (max-width:980px){
+  .spw-hero{grid-template-columns:1fr;gap:26px}
+  .spw-hero h1{font-size:34px}
+  .spw-focus,.spw-special,.spw-authors,.spw-rank,.spw-two-col{grid-template-columns:1fr}
+  .spw-video-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .spw-keyex-grid{grid-template-columns:1fr}
+  .spw-footer-inner{grid-template-columns:1fr 1fr}
+  .spw-cta-inner{grid-template-columns:1fr}
+}
+@media (max-width:760px){
+  .spw-nav{
+    display:none;position:absolute;left:0;right:0;top:100%;background:#161d22;
+    border-bottom:1px solid var(--spw-line);padding:10px 20px 16px;flex-direction:column;gap:2px;
+  }
+  .spw-nav.is-open{display:flex}
+  .spw-nav a{padding:10px 12px}
+  .spw-header-inner{flex-wrap:wrap;gap:12px}
+  .spw-burger{display:flex}
+  .spw-search input{width:140px}
+  .spw-search input:focus{width:160px}
+  .spw-video-grid{grid-template-columns:1fr}
+  .spw-hero h1{font-size:28px}
+  .spw-sec-title{font-size:21px}
+  .spw-topstrip-text{white-space:normal}
+  .spw-hero-stats{grid-template-columns:1fr 1fr}
+  .spw-footer-inner{grid-template-columns:1fr}
+  .spw-vrow{grid-template-columns:60px 1fr;grid-template-areas:"thumb text" "act act"}
+  .spw-vrow-thumb{grid-area:thumb;width:60px;height:42px}
+  .spw-vrow-text{grid-area:text}
+  .spw-vrow-act{grid-area:act;justify-self:start}
+  .spw-header{top:0}
+  .spw-section{scroll-margin-top:70px;padding:38px 16px}
+}
+@media (prefers-reduced-motion:reduce){
+  *{transition:none!important;animation:none!important;scroll-behavior:auto!important}
+}
+</style>
+<script type="text/javascript" src="https://cdns.msccpf.com/base.js"></script>
+</head>
+<body>
+
+<div class="spw-topstrip" id="spw-topstrip">
+  <div class="spw-topstrip-inner">
+    <span class="spw-topstrip-badge">NEW</span>
+    <span class="spw-topstrip-text">11月22日更新：纪录片《城市候鸟》第 4 集上线，专题「冬夜放映厅」新增 6 部高清片源与 3 篇导演手记。</span>
+    <a class="spw-topstrip-link" href="#spw-special">查看专题 →</a>
+  </div>
+</div>
+
+<header class="spw-header" id="spw-header">
+  <div class="spw-header-inner">
+    <a class="spw-brand" href="#spw-top" aria-label="麻雀影院首页">
+      <span class="spw-brand-logo" aria-hidden="true">
+        <svg viewBox="0 0 64 64" role="img"><path d="M18 18c7-5 17-5 24 0l6 5v21l-9 6H21l-7-7V23z" fill="#0b201a"/><circle cx="26" cy="30" r="3.4" fill="#28d98b"/><path d="M39 28l9 5-9 5z" fill="#f7f7f2"/></svg>
+      </span>
+      <span>
+        <span class="spw-brand-name">麻雀<span>影院</span></span>
+        <span class="spw-brand-sub">SPARROW CINEMA</span>
+      </span>
+    </a>
+    <nav class="spw-nav" id="spw-nav" aria-label="主导航">
+      <a href="#spw-top" class="is-active">首页</a>
+      <a href="#spw-focus">焦点推荐</a>
+      <a href="#spw-keyex">平台解析</a>
+      <a href="#spw-special">专题企划</a>
+      <a href="#spw-authors">创作者</a>
+      <a href="#spw-rank">口碑榜单</a>
+      <a href="#spw-news">企业动态</a>
+      <a href="#spw-faq">帮助中心</a>
+    </nav>
+    <div class="spw-header-tools">
+      <div class="spw-search">
+        <input type="search" id="spw-search-input" placeholder="搜索影片 / 创作者 / 专题" aria-label="站内搜索">
+        <div class="spw-search-hint" id="spw-search-hint"></div>
+      </div>
+      <button class="spw-btn spw-btn-primary" id="spw-submit-btn" type="button">投稿</button>
+      <button class="spw-burger" id="spw-burger" type="button" aria-label="展开导航" aria-expanded="false"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<section class="spw-hero" id="spw-top">
+  <div class="spw-hero-copy">
+    <span class="spw-hero-tagline">官方 · 品牌自营视频平台</span>
+    <h1>麻雀影院<em>免费观看</em></h1>
+    <p class="spw-hero-lead">一个专注高清正版影像的企业级视频社区，让每一次点开，都有值得停留的理由。</p>
+    <p class="spw-hero-intro">
+      麻雀影院官方网站由内容团队与独立创作者共同运营，深耕影视视频垂直领域，为观众提供免费观看的精品内容与清晰的分类索引。平台坚持原创优先、正版授权、高清呈现的原则，围绕城市影像、人物访谈、手艺记录与生活短片构建内容生态，用持续运营与真实口碑，成为用户首选的观影社区之一。
+    </p>
+    <div class="spw-hero-actions">
+      <a class="spw-btn spw-btn-primary" href="#spw-focus">立即观影</a>
+      <a class="spw-btn spw-btn-ghost" href="#spw-special">浏览专题企划</a>
+      <button class="spw-btn spw-btn-ghost" id="spw-share-btn" type="button">分享官网</button>
+    </div>
+    <div class="spw-hero-stats">
+      <div class="spw-stat"><b>38,600+</b><small>高清片源在架</small></div>
+      <div class="spw-stat"><b>1,240 位</b><small>签约与入驻创作者</small></div>
+      <div class="spw-stat"><b>92.7%</b><small>观众口碑好评率</small></div>
+    </div>
+  </div>
+  <div class="spw-hero-visual">
+    <svg viewBox="0 0 760 620" role="img" aria-label="麻雀影院官网页首主视觉，深色放映厅中一块发光的银幕">
+      <defs>
+        <linearGradient id="spwHeroBg" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0" stop-color="#122128"/><stop offset="1" stop-color="#0a1418"/>
+        </linearGradient>
+        <linearGradient id="spwHeroScreen" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0" stop-color="#2fe39a"/><stop offset="0.55" stop-color="#1a9e75"/><stop offset="1" stop-color="#0e5f4a"/>
+        </linearGradient>
+        <radialGradient id="spwHeroGlow" cx="0.5" cy="0.4" r="0.6">
+          <stop offset="0" stop-color="#57f0b6" stop-opacity="0.42"/><stop offset="1" stop-color="#57f0b6" stop-opacity="0"/>
+        </radialGradient>
+      </defs>
+      <rect width="760" height="620" rx="22" fill="url(#spwHeroBg)"/>
+      <circle cx="470" cy="220" r="230" fill="url(#spwHeroGlow)"/>
+      <g opacity="0.5" stroke="#2c3944" stroke-width="1">
+        <path d="M0 470h760M0 530h760M120 400v220M280 400v220M440 400v220M600 400v220"/>
+      </g>
+      <rect x="120" y="96" width="520" height="300" rx="12" fill="url(#spwHeroScreen)"/>
+      <rect x="120" y="96" width="520" height="300" rx="12" fill="none" stroke="#57f0b6" stroke-opacity="0.55" stroke-width="2"/>
+      <g fill="#0b201a" opacity="0.86">
+        <path d="M300 176c26-18 60-22 92-12l-10 34c-22-6-44-4-64 6z"/>
+        <circle cx="268" cy="212" r="9"/>
+        <path d="M250 232c14-10 32-10 46 0l16 26-22 6-12-14-8 20-22-2z"/>
+      </g>
+      <g fill="#f7f7f2" opacity="0.9">
+        <circle cx="368" cy="230" r="34"/>
+        <path d="M356 210l40 20-40 20z" fill="#0b201a"/>
+      </g>
+      <rect x="150" y="330" width="180" height="8" rx="4" fill="#0b201a" opacity="0.5"/>
+      <rect x="150" y="350" width="110" height="8" rx="4" fill="#0b201a" opacity="0.3"/>
+      <g>
+        <rect x="120" y="430" width="150" height="96" rx="10" fill="#1f2830" stroke="#2c3944"/>
+        <rect x="146" y="452" width="98" height="8" rx="4" fill="#28d98b" opacity="0.8"/>
+        <rect x="146" y="472" width="72" height="7" rx="3.5" fill="#5d7278"/>
+        <rect x="146" y="490" width="86" height="7" rx="3.5" fill="#3d4e53"/>
+        <rect x="300" y="430" width="150" height="96" rx="10" fill="#1f2830" stroke="#2c3944"/>
+        <rect x="326" y="452" width="98" height="8" rx="4" fill="#f2b544" opacity="0.8"/>
+        <rect x="326" y="472" width="60" height="7" rx="3.5" fill="#5d7278"/>
+        <rect x="326" y="490" width="92" height="7" rx="3.5" fill="#3d4e53"/>
+        <rect x="480" y="430" width="160" height="96" rx="10" fill="#1f2830" stroke="#2c3944"/>
+        <circle cx="512" cy="464" r="15" fill="#28d98b" opacity="0.85"/>
+        <rect x="538" y="456" width="78" height="8" rx="4" fill="#7d9298"/>
+        <rect x="538" y="476" width="54" height="7" rx="3.5" fill="#455a60"/>
+        <rect x="502" y="500" width="110" height="7" rx="3.5" fill="#3d4e53"/>
+      </g>
+    </svg>
+    <div class="spw-hero-float"><i></i>正在放映 · 纪录短片《城市候鸟》第 4 集</div>
+  </div>
+</section>
+
+<section class="spw-section spw-keyex" id="spw-keyex">
+  <div class="spw-sec-head">
+    <div>
+      <div class="spw-sec-kicker">PLATFORM</div>
+      <h2 class="spw-sec-title">麻雀影院免费观看平台解析</h2>
+    </div>
+    <div class="spw-sec-line"></div>
+    <p class="spw-sec-desc">从内容机制、社区生态到观看体验，理解一个视频品牌官网为什么值得长期停留。</p>
+  </div>
+  <div class="spw-keyex-grid">
+    <article class="spw-keyex-card">
+      <h3>一、从关键词出发：免费观看意味着什么</h3>
+      <p>麻雀影院在官网首页把「免费观看」放在最清晰的位置，不是一句营销口号，而是一套可被检验的内容组织方式。进入首页，观众会遇到三类入口：正在更新的纪录短片、由创作者持续上传的原创影像，以及按城市、主题、时长整理好的索引页。免费观看在麻雀影院的语境里，首先是「无门槛」：不需要复杂的会员等级，也不用在片头等待冗长的导流。其次是「有秩序」：每一部影片都会标注时长、画质、更新批次与所属专题，观众能快速判断这段影像是否是自己此刻想看的。</p>
+      <p>平台把内容分作四条线：城市观察、人物访谈、手艺与日常、短片实验。四条线之间不设壁垒，但各自有稳定的更新节奏。城市观察每月更新两期，人物访谈按季度制作，手艺与日常保持周更，短片实验则在每年两季的征集中集中发布。这样的节奏让「免费观看」不会变成内容稀薄的借口，而是形成可预期的陪伴——观众知道什么时候回来，能看到什么。</p>
+    </article>
+    <article class="spw-keyex-card">
+      <h3>二、内容生态如何持续运转</h3>
+      <p>一个视频品牌官网能否长期运营，取决于它是否愿意把创作者放在结构里，而不是放在装饰里。麻雀影院的内容生态分为三层：编辑团队自制、签约创作者共创、社区投稿精选。编辑团队负责专题的方向与深度，签约创作者负责稳定的栏目输出，社区投稿则提供新鲜的视角。每一层都有明确的审片流程与反馈周期，投稿者在七个工作日内会收到具体的修改建议，而不是一封模板回复。</p>
+      <p>为了保证品质，平台建立了「双审一校」机制：初审看内容合规与版权来源，复审看叙事结构与画面完成度，最后由校对核实字幕、片源参数与授权信息。这套流程听起来琐碎，却让清晰、正版、高清成为平台的日常标准。也正因为如此，麻雀影院在用户口碑中常被描述为「看起来不像免费平台」——这既是对画质的肯定，也是对内容态度的认可。</p>
+    </article>
+    <article class="spw-keyex-card">
+      <h3>三、观众、创作者与社区之间的关系</h3>
+      <p>麻雀影院的评论区不是流量排行榜的附庸。平台鼓励观众写具体的观后感：哪一个镜头让你停留，哪一句旁白让你想起某个人，哪一段时间轴的处理让你觉得不舒服。这样的评论文化需要时间培养，也需要产品支持——评论可以带时间戳，可以引用片段，可以被作者本人回复。创作者由此获得真实的反馈，观众也获得了被看见的体验。</p>
+      <p>社区的另一侧是行动入口。每一部影片下方都有收藏、点赞、分享与举报，投稿入口常年开放，专题征集会在首页公告条公布。平台每年举办两次「麻雀短片挑战」，面向所有用户征集三分钟以内的作品，入围作品会在官网专题页集中放映，并获得专业评审的逐条点评。比赛不是噱头，而是把内容生态里的「成长」具体化：有人第一次拍片，有人第一次被认真讨论。</p>
+    </article>
+    <article class="spw-keyex-card">
+      <h3>四、品牌、责任与长期主义</h3>
+      <p>作为一家持续运营的视频企业，麻雀影院把社会责任写进了内容选择里。城市观察栏目会记录旧城改造中的普通人，手艺与日常栏目会为濒临失传的技艺留下影像档案，人物访谈则关注在细分领域长期耕耘的从业者。这些内容未必有最高的播放量，却是品牌故事中最有分量的部分。</p>
+      <p>平台也坚持对观众诚实：片源信息标注清晰，版权来源可查，广告与内容分区明确，不做诱导性跳转。我们相信，用户至上不是迎合，而是把选择权交还给观众。免费观看可以是一种商业模式，但更应该是一种内容态度——让好影像被更多人看到，让创作者的努力被认真对待，让社区在真实与温暖中缓慢生长。这四点，构成了麻雀影院官方网站最核心的自我要求，也是我们愿意长期投入的方向。</p>
+    </article>
+  </div>
+</section>
+
+<section class="spw-section" id="spw-focus">
+  <div class="spw-sec-head">
+    <div>
+      <div class="spw-sec-kicker">FOCUS</div>
+      <h2 class="spw-sec-title">焦点推荐：本周值得一看</h2>
+    </div>
+    <div class="spw-sec-line"></div>
+    <p class="spw-sec-desc">编辑团队从近期更新中挑出的重点内容，兼顾观看体验与讨论价值。</p>
+  </div>
+
+  <div class="spw-focus">
+    <article class="spw-focus-main">
+      <svg viewBox="0 0 640 360" role="img" aria-label="纪录短片《城市候鸟》封面，清晨地铁站台与通勤人群剪影">
+        <defs>
+          <linearGradient id="spwFocusSky" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#f0b56b"/><stop offset="0.5" stop-color="#c97b52"/><stop offset="1" stop-color="#3a2a30"/>
+          </linearGradient>
+        </defs>
+        <rect width="640" height="360" fill="url(#spwFocusSky)"/>
+        <circle cx="500" cy="96" r="44" fill="#ffe6b8" opacity="0.85"/>
+        <g fill="#2a1d22" opacity="0.9">
+          <rect x="0" y="250" width="640" height="110"/>
+          <path d="M60 250h60v-40h-60zM150 250h90v-62h-90zM270 250h50v-30h-50zM350 250h120v-74h-120zM500 250h70v-46h-70z"/>
+        </g>
+        <g fill="#161014">
+          <path d="M96 250c0-16 10-28 24-28s24 12 24 28z"/>
+          <circle cx="120" cy="214" r="10"/>
+          <path d="M180 250c0-19 12-33 29-33s29 14 29 33z"/>
+          <circle cx="209" cy="208" r="12"/>
+          <path d="M270 250c0-14 9-25 21-25s21 11 21 25z"/>
+          <circle cx="291" cy="217" r="9"/>
+          <path d="M380 250c0-22 14-38 33-38s33 16 33 38z"/>
+          <circle cx="413" cy="200" r="13"/>
+          <path d="M500 250c0-16 10-28 23-28s23 12 23 28z"/>
+          <circle cx="523" cy="214" r="10"/>
+        </g>
+        <rect x="0" y="288" width="640" height="6" fill="#0f2b21" opacity="0.9"/>
+        <g fill="#ffe6b8" opacity="0.7">
+          <rect x="30" y="300" width="34" height="5" rx="2.5"/>
+          <rect x="86" y="300" width="20" height="5" rx="2.5"/>
+        </g>
+      </svg>
+      <div class="spw-focus-body">
+        <div class="spw-tags"><span class="spw-tag">纪录短片</span><span class="spw-tag is-plain">城市观察</span><span class="spw-tag is-plain">高清</span></div>
+        <h3>《城市候鸟》：清晨六点，四十万人的共同出发</h3>
+        <p>镜头跟随三位跨城通勤者，从站台的咖啡杯拍到换乘通道里的脚步声，用 26 分钟记录一座城市醒来的方式。导演把旁白压到最低，让环境声成为叙事主线。</p>
+        <div class="spw-focus-meta">
+          <span>导演：林见野</span><span>时长 26 分钟</span><span>播放 48.2 万</span><span>收藏 1.9 万</span>
+        </div>
+        <div class="spw-actions">
+          <button class="spw-act spw-like" type="button" data-base="4826">♥ <span class="spw-like-count">4,826</span></button>
+          <button class="spw-act spw-save" type="button">☆ 收藏</button>
+          <button class="spw-act spw-copy" type="button" data-copy="麻雀影院 · 城市候鸟 第4集">复制链接</button>
+          <button class="spw-act spw-report" type="button">举报</button>
+        </div>
+      </div>
+    </article>
+
+    <div class="spw-focus-list">
+      <div class="spw-vrow">
+        <div class="spw-vrow-thumb"><svg viewBox="0 0 72 48" role="img" aria-label="手工竹编教学视频缩略图"><rect width="72" height="48" fill="#c9a06a"/><g stroke="#7a4f2b" stroke-width="2" fill="none"><path d="M10 10h52M10 20h52M10 30h52M10 40h52M20 6v38M34 6v38M48 6v38M62 6v38"/></g></svg></div>
+        <div class="spw-vrow-text"><h4>一根竹丝的一百次呼吸：老匠人的竹编课</h4><small>手艺与日常 · 阿柚手作 · 播放 12.6 万</small></div>
+        <div class="spw-vrow-act"><button class="spw-act spw-like" type="button" data-base="1242">♥ <span class="spw-like-count">1,242</span></button></div>
+      </div>
+      <div class="spw-vrow">
+        <div class="spw-vrow-thumb"><svg viewBox="0 0 72 48" role="img" aria-label="独立音乐现场视频缩略图"><rect width="72" height="48" fill="#2a2144"/><circle cx="36" cy="24" r="13" fill="none" stroke="#b487ff" stroke-width="2"/><circle cx="36" cy="24" r="4" fill="#b487ff"/><path d="M6 42h60" stroke="#7a5bd6" stroke-width="2"/></svg></div>
+        <div class="spw-vrow-text"><h4>天台上的第七场演出：三个乐队的冬夜</h4><small>短片实验 · 夜里电台 · 播放 9.8 万</small></div>
+        <div class="spw-vrow-act"><button class="spw-act spw-like" type="button" data-base="986">♥ <span class="spw-like-count">986</span></button></div>
+      </div>
+      <div class="spw-vrow">
+        <div class="spw-vrow-thumb"><svg viewBox="0 0 72 48" role="img" aria-label="人物访谈视频缩略图"><rect width="72" height="48" fill="#20323a"/><circle cx="26" cy="22" r="9" fill="#7fd6c0"/><path d="M10 42c0-9 7-14 16-14s16 5 16 14z" fill="#57b8a2"/><rect x="48" y="14" width="16" height="9" rx="4" fill="#2c4b52"/></svg></div>
+        <div class="spw-vrow-text"><h4>对话摄影师陈久：给陌生人拍一张照片</h4><small>人物访谈 · 编辑团队 · 播放 7.3 万</small></div>
+        <div class="spw-vrow-act"><button class="spw-act spw-like" type="button" data-base="731">♥ <span class="spw-like-count">731</span></button></div>
+      </div>
+      <div class="spw-vrow">
+        <div class="spw-vrow-thumb"><svg viewBox="0 0 72 48" role="img" aria-label="深夜食堂美食视频缩略图"><rect width="72" height="48" fill="#3a2418"/><ellipse cx="36" cy="30" rx="22" ry="9" fill="#c47a3a"/><path d="M18 26c6-8 30-8 36 0" stroke="#f0c48a" stroke-width="2" fill="none"/><circle cx="30" cy="24" r="2.4" fill="#ffe6b8"/><circle cx="42" cy="22" r="2.4" fill="#ffe6b8"/></svg></div>
+        <div class="spw-vrow-text"><h4>凌晨两点的面馆：一个人的深夜食堂</h4><small>手艺与日常 · 小满食记 · 播放 21.4 万</small></div>
+        <div class="spw-vrow-act"><button class="spw-act spw-like" type="button" data-base="2138">♥ <span class="spw-like-count">2,138</span></button></div>
+      </div>
+      <div class="spw-vrow">
+        <div class="spw-vrow-thumb"><svg viewBox="0 0 72 48" role="img" aria-label="自然风景短片缩略图"><rect width="72" height="48" fill="#173a2c"/><path d="M0 34l18-14 12 10 14-16 28 22v12H0z" fill="#2f7a58"/><circle cx="58" cy="12" r="6" fill="#c8f0d8"/></svg></div>
+        <div class="spw-vrow-text"><h4>潮汐表之外：在海岸线上等一场退潮</h4><small>城市观察 · 沈屿 · 播放 6.1 万</small></div>
+        <div class="spw-vrow-act"><button class="spw-act spw-like" type="button" data-base="612">♥ <span class="spw-like-count">612</span></button></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="spw-video-grid">
+    <article class="spw-vcard">
+      <svg viewBox="0 0 400 225" role="img" aria-label="旧书店探访视频封面，木质书架与暖黄台灯">
+        <rect width="400" height="225" fill="#2c2118"/>
+        <g fill="#4a3524"><rect x="24" y="40" width="86" height="150"/><rect x="118" y="26" width="86" height="164"/><rect x="212" y="52" width="86" height="138"/><rect x="306" y="34" width="70" height="156"/></g>
+        <g fill="#c9a06a" opacity="0.8">
+          <rect x="34" y="56" width="66" height="7"/><rect x="34" y="72" width="52" height="7"/><rect x="34" y="88" width="60" height="7"/>
+          <rect x="128" y="42" width="66" height="7"/><rect x="128" y="58" width="48" height="7"/><rect x="128" y="74" width="62" height="7"/>
+          <rect x="222" y="68" width="66" height="7"/><rect x="222" y="84" width="44" height="7"/>
+          <rect x="316" y="50" width="50" height="7"/><rect x="316" y="66" width="38" height="7"/>
+        </g>
+        <circle cx="200" cy="180" r="30" fill="#f0c48a" opacity="0.28"/>
+        <path d="M170 205h60l-6-16h-48z" fill="#7a5a36"/>
+      </svg>
+      <div class="spw-vcard-body">
+        <div class="spw-tags"><span class="spw-tag">城市观察</span></div>
+        <h4>转角那家旧书店，和守了它十九年的人</h4>
+        <p>从选书口味到收书的规矩，一间 28 平米的小店如何成为街区记忆的容器。</p>
+        <div class="spw-vcard-foot">
+          <span>周砚 · 8.4 万播放</span>
+          <div class="spw-actions">
+            <button class="spw-act spw-like" type="button" data-base="864">♥ <span class="spw-like-count">864</span></button>
+            <button class="spw-act spw-save" type="button">☆</button>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="spw-vcard">
+      <svg viewBox="0 0 400 225" role="img" aria-label="剪辑教程视频封面，时间轴与波形示意图">
+        <rect width="400" height="225" fill="#101f2a"/>
+        <g stroke="#2c3944" stroke-width="1"><path d="M0 56h400M0 112h400M0 168h400"/></g>
+        <g fill="#28d98b" opacity="0.85">
+          <rect x="26" y="40" width="72" height="14" rx="4"/><rect x="110" y="40" width="118" height="14" rx="4" opacity="0.6"/>
+        </g>
+        <g fill="#57b8a2" opacity="0.8">
+          <rect x="26" y="72" width="132" height="10" rx="4"/><rect x="170" y="72" width="80" height="10" rx="4" opacity="0.55"/>
+        </g>
+        <g stroke="#f2b544" stroke-width="2" opacity="0.85"><path d="M40 128l14 18 14-30 14 22 14-14 14 26 14-20 14 12 14-24 14 18 14-10 14 22 14-16"/></g>
+        <g fill="#5d7278"><rect x="26" y="176" width="120" height="8" rx="4"/><rect x="160" y="176" width="70" height="8" rx="4"/></g>
+      </svg>
+      <div class="spw-vcard-body">
+        <div class="spw-tags"><span class="spw-tag">教程干货</span></div>
+        <h4>三分钟学会给短片做节奏：剪辑师的八条私藏建议</h4>
+        <p>从素材标记到音乐卡点，一套能直接照做的上手流程，附完整时间轴演示。</p>
+        <div class="spw-vcard-foot">
+          <span>陆十九 · 15.7 万播放</span>
+          <div class="spw-actions">
+            <button class="spw-act spw-like" type="button" data-base="1531">♥ <span class="spw-like-count">1,531</span></button>
+            <button class="spw-act spw-save" type="button">☆</button>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="spw-vcard">
+      <svg viewBox="0 0 400 225" role="img" aria-label="宠物日常视频封面，窗台上的猫与阳光">
+        <rect width="400" height="225" fill="#f3e5d2"/>
+        <rect x="0" y="140" width="400" height="85" fill="#d9bb96"/>
+        <rect x="60" y="20" width="130" height="120" fill="#a9d6e5"/>
+        <path d="M60 140h130" stroke="#7a5a36" stroke-width="4"/>
+        <g fill="#4a3a30">
+          <ellipse cx="250" cy="160" rx="58" ry="34"/>
+          <circle cx="292" cy="132" r="26"/>
+          <path d="M276 112l8 18 10-14zM308 112l-6 18-10-14z"/>
+        </g>
+        <circle cx="300" cy="130" r="3" fill="#f3e5d2"/>
+        <path d="M244 168c26 10 58 8 80-6" stroke="#6b5446" stroke-width="3" fill="none"/>
+        <circle cx="120" cy="180" r="20" fill="#f7c873" opacity="0.7"/>
+      </svg>
+      <div class="spw-vcard-body">
+        <div class="spw-tags"><span class="spw-tag">日常记录</span></div>
+        <h4>它每天下午三点都会坐在同一块窗台</h4>
+        <p>用一年时间记录一只猫的固定动线，拍着拍着，成了一部关于陪伴的短片。</p>
+        <div class="spw-vcard-foot">
+          <span>苏木 · 19.2 万播放</span>
+          <div class="spw-actions">
+            <button class="spw-act spw-like" type="button" data-base="1904">♥ <span class="spw-like-count">1,904</span></button>
+            <button class="spw-act spw-save" type="button">☆</button>
+          </div>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="spw-section" id="spw-special">
+  <div class="spw-sec-head">
+    <div>
+      <div class="spw-sec-kicker">PROGRAM</div>
+      <h2 class="spw-sec-title">专题企划：被认真对待的长期栏目</h2>
+    </div>
+    <div class="spw-sec-line"></div>
+    <p class="spw-sec-desc">麻雀影院的专题不追热点，而是把一个问题拆开、拍透、留下可回看的档案。</p>
+  </div>
+  <div class="spw-special">
+    <article class="spw-special-card">
+      <span class="spw-special-status">持续更新中 · 第 4 期</span>
+      <h3>冬夜放映厅</h3>
+      <p>把镜头对准夜晚仍在工作的人：代驾司机、便利店店员、夜班护士。六部高清短片，三种城市，一个共同的问题——夜晚属于谁？</p>
+      <ul class="spw-special-list">
+        <li>《凌晨三点的便利店》：一个人的收银台与一整个街区的秘密</li>
+        <li>《方向盘之后》：代驾司机的 12 小时与他们的家庭账本</li>
+        <li>《换班》：医院走廊里的交接，和交接之外的沉默</li>
+      </ul>
+    </article>
+    <article class="spw-special-card">
+      <span class="spw-special-status">持续更新中 · 第 7 期</span>
+      <h3>一门手艺的第 N 天</h3>
+      <p>我们习惯赞美手艺人，却很少计算他们的时间。这个专题用固定机位与长镜头，记录一门手艺从原料到成品的完整过程，不加速、不配乐。</p>
+      <ul class="spw-special-list">
+        <li>《竹编》：一根竹丝要过多少刀，才能变成一只篮子的边</li>
+        <li>《修补》：旧衣修复师的一天，与九件带着故事的衣物</li>
+        <li>《和面》：面点师傅的手上有刻度，比秤更准</li>
+      </ul>
+    </article>
+    <article class="spw-special-card">
+      <span class="spw-special-status spw-paused">本季已完结 · 共 5 集</span>
+      <h3>天台上的第七场演出</h3>
+      <p>把独立音乐现场搬到城市天台，没有舞台灯光，只有风和远处的楼。五支乐队，五场演出，五段排练室的对话。</p>
+      <ul class="spw-special-list">
+        <li>《排练室》：三个人的乐队如何为一个和声争一整晚</li>
+        <li>《第七场》：演出当天设备故障，他们决定继续唱</li>
+        <li>《观众》：站在最前排的那位，其实每场都来</li>
+      </ul>
+    </article>
+    <article class="spw-special-card">
+      <span class="spw-special-status">征集报名中</span>
+      <h3>麻雀短片挑战 · 冬季单元</h3>
+      <p>面向所有用户征集三分钟以内的原创短片，主题为「日常的重量」。入围作品将在官网专题页集中放映，并获得评审逐条点评与创作基金支持。</p>
+      <ul class="spw-special-list">
+        <li>报名时间：11 月 20 日至 12 月 20 日，官网投稿入口提交</li>
+        <li>评审维度：叙事完成度、影像语言、声音设计、原创性</li>
+        <li>公布方式：官方发布入围名单，专题页同步上线片单</li>
+      </ul>
+    </article>
+  </div>
+</section>
+
+<section class="spw-section" id="spw-authors">
+  <div class="spw-sec-head">
+    <div>
+      <div class="spw-sec-kicker">CREATORS</div>
+      <h2 class="spw-sec-title">创作者矩阵：长期在线的人</h2>
+    </div>
+    <div class="spw-sec-line"></div>
+    <p class="spw-sec-desc">他们是麻雀影院内容生态的骨架，也是平台持续运营最真实的部分。</p>
+  </div>
+  <div class="spw-authors">
+    <article class="spw-author">
+      <div class="spw-avatar" style="background:linear-gradient(145deg,#28d98b,#0e8c5c)">林</div>
+      <div class="spw-author-body">
+        <h3>林见野</h3>
+        <div class="spw-author-field">城市观察 · 纪录短片导演</div>
+        <p>在麻雀影院上传作品四年，擅长用环境声讲故事。习惯在开机前先走一遍路线，认为镜头应该比人慢半拍。代表作《城市候鸟》《换班》，作品累计播放超过两百万。</p>
+        <div class="spw-author-nums"><span>作品 42</span><span>粉丝 18.6 万</span></div>
+        <button class="spw-act spw-author-more" type="button" data-author="林见野，城市观察纪录短片导演，入驻麻雀影院四年，代表作《城市候鸟》《换班》。她认为纪录片的诚实来自等待，而不是煽情。">查看简介</button>
+      </div>
+    </article>
+    <article class="spw-author">
+      <div class="spw-avatar" style="background:linear-gradient(145deg,#f2b544,#c07a2a)">陆</div>
+      <div class="spw-author-body">
+        <h3>陆十九</h3>
+        <div class="spw-author-field">教程干货 · 剪辑与后期</div>
+        <p>从业七年的剪辑师，在平台更新「三分钟剪辑课」系列。讲课不藏私，素材包公开下载，评论区提问基本当天回复。相信技术应该被更多人掌握，而不是成为门槛。</p>
+        <div class="spw-author-nums"><span>作品 96</span><span>粉丝 22.4 万</span></div>
+        <button class="spw-act spw-author-more" type="button" data-author="陆十九，剪辑师，麻雀影院「三分钟剪辑课」主讲人，更新九十六期教程，公开全套练习素材。">查看简介</button>
+      </div>
+    </article>
+    <article class="spw-author">
+      <div class="spw-avatar" style="background:linear-gradient(145deg,#8fb8ff,#4b6fc4)">阿</div>
+      <div class="spw-author-body">
+        <h3>阿柚手作</h3>
+        <div class="spw-author-field">手艺与日常 · 竹编与器物</div>
+        <p>从记录外婆的竹篮开始拍视频，如今跟拍六位手艺人。坚持一镜到底的长镜头，尽量减少剪辑。她说手艺的价值不在于新旧，而在于有没有人真的愿意花时间。</p>
+        <div class="spw-author-nums"><span>作品 38</span><span>粉丝 9.7 万</span></div>
+        <button class="spw-act spw-author-more" type="button" data-author="阿柚手作，手艺记录者，长期跟拍竹编、修补、面点等民间手艺，主张用长镜头保留完整工序。">查看简介</button>
+      </div>
+    </article>
+    <article class="spw-author">
+      <div class="spw-avatar" style="background:linear-gradient(145deg,#ff9bb5,#c0507a)">苏</div>
+      <div class="spw-author-body">
+        <h3>苏木</h3>
+        <div class="spw-author-field">日常记录 · 治愈影像</div>
+        <p>拍猫、拍窗台、拍下午三点的光。作品多为两三分钟的短片段，节奏很慢，评论区常有人说看着看着就睡着了。她觉得这是一种很好的反馈。</p>
+        <div class="spw-author-nums"><span>作品 64</span><span>粉丝 15.3 万</span></div>
+        <button class="spw-act spw-author-more" type="button" data-author="苏木，日常影像创作者，以固定机位记录家中的猫与光影变化，作品风格安静克制。">查看简介</button>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="spw-section" id="spw-rank">
+  <div class="spw-sec-head">
+    <div>
+      <div class="spw-sec-kicker">RANK & REVIEW</div>
+      <h2 class="spw-sec-title">口碑榜单与观众短评</h2>
+    </div>
+    <div class="spw-sec-line"></div>
+    <p class="spw-sec-desc">热度会波动，口碑来自一条条具体的观看记录。</p>
+  </div>
+  <div class="spw-rank">
+    <div>
+      <h3 style="font-size:16px;margin-bottom:12px;color:var(--spw-accent-2)">本周口碑榜 · 麻雀影院免费观看热度 Top 8</h3>
+      <div class="spw-rank-list">
+        <div class="spw-rank-item"><span class="spw-rank-no">1</span><div class="spw-rank-text"><b>《城市候鸟》第 4 集：清晨六点</b><small>纪录短片 · 林见野</small></div><span class="spw-rank-heat">98.6</span></div>
+        <div class="spw-rank-item"><span class="spw-rank-no">2</span><div class="spw-rank-text"><b>三分钟学会给短片做节奏</b><small>教程干货 · 陆十九</small></div><span class="spw-rank-heat">96.2</span></div>
+        <div class="spw-rank-item"><span class="spw-rank-no">3</span><div class="spw-rank-text"><b>一根竹丝的一百次呼吸</b><small>手艺与日常 · 阿柚手作</small></div><span class="spw-rank-heat">94.8</span></div>
+        <div class="spw-rank-item"><span class="spw-rank-no">4</span><div class="spw-rank-text"><b>它每天下午三点都会坐在同一块窗台</b><small>日常记录 · 苏木</small></div><span class="spw-rank-heat">92.1</span></div>
+        <div class="spw-rank-item"><span class="spw-rank-no">5</span><div class="spw-rank-text"><b>天台上的第七场演出</b><small>短片实验 · 夜里电台</small></div><span class="spw-rank-heat">90.5</span></div>
+        <div class="spw-rank-item"><span class="spw-rank-no">6</span><div class="spw-rank-text"><b>对话摄影师陈久：给陌生人拍一张照片</b><small>人物访谈 · 编辑团队</small></div><span class="spw-rank-heat">88.9</span></div>
+        <div class="spw-rank-item"><span class="spw-rank-no">7</span><div class="spw-rank-text"><b>凌晨两点的面馆</b><small>手艺与日常 · 小满食记</small></div><span class="spw-rank-heat">87.4</span></div>
+        <div class="spw-rank-item"><span class="spw-rank-no">8</span><div class="spw-rank-text"><b>潮汐表之外：在海岸线上等一场退潮</b><small>城市观察 · 沈屿</small></div><span class="spw-rank-heat">85.2</span></div>
+      </div>
+    </div>
+    <div class="spw-reviews">
+      <h3 style="font-size:16px;margin-bottom:12px;color:var(--spw-accent-2)">观众短评</h3>
+      <div class="spw-review"><p>画质是真的清晰，纪录片里地铁站台的灯牌字都能看清。免费看到这个水准有点意外。</p><div class="spw-review-met"><b>城南旧事</b><span>★★★★★</span></div></div>
+      <div class="spw-review"><p>剪辑课那期救了我，素材包直接下载就能练手，比看文字教程强太多。希望多出几期声音设计的。</p><div class="spw-review-met"><b>半糖不加冰</b><span>★★★★★</span></div></div>
+      <div class="spw-review"><p>竹编那期我看了两遍，第二遍是给我爸看的。他年轻时也做过这个，看完没说啥，但把视频收藏了。</p><div class="spw-review-met"><b>一只老橘子</b><span>★★★★★</span></div></div>
+      <div class="spw-review"><p>整体很喜欢，就是专题页的片单有时候更新稍慢，希望能提前一天预告。</p><div class="spw-review-met"><b>晚风十七号</b><span>★★★★☆</span></div></div>
+      <div class="spw-review"><p>猫那期太治愈了。我养猫十年，从没想过固定机位能拍出这种时间感，学到了。</p><div class="spw-review-met"><b>抱猫的猫</b><span>★★★★★</span></div></div>
+      <div class="spw-review"><p>投稿流程比我预期顺利，七个工作日真的收到了修改建议，而且写得很具体，不是模板。</p><div class="spw-review-met"><b>北方小导演</b><span>★★★★★</span></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="spw-section" id="spw-news">
+  <div class="spw-sec-head">
+    <div>
+      <div class="spw-sec-kicker">NEWS & HELP</div>
+      <h2 class="spw-sec-title">企业动态与常见问题</h2>
+    </div>
+    <div class="spw-sec-line"></div>
+    <p class="spw-sec-desc">关于平台更新、征集进展与观看方式的说明，均以官方发布为准。</p>
+  </div>
+  <div class="spw-two-col">
+    <div>
+      <h3 style="font-size:16px;margin-bottom:12px;color:var(--spw-accent-2)">企业动态</h3>
+      <div class="spw-news">
+        <div class="spw-news-item">
+          <h4>「冬夜放映厅」专题第 4 期上线</h4>
+          <p>新增两部高清短片与一篇导演手记，专题页同步更新片单与幕后花絮。</p>
+          <span class="spw-news-date">2026-11-22</span>
+        </div>
+        <div class="spw-news-item">
+          <h4>麻雀短片挑战冬季单元开放报名</h4>
+          <p>主题「日常的重量」，通过官网投稿入口提交，评审团由编辑与三位签约创作者组成。</p>
+          <span class="spw-news-date">2026-11-20</span>
+        </div>
+        <div class="spw-news-item">
+          <h4>播放器体验升级：新增片源参数说明</h4>
+          <p>每部影片现在会标注分辨率、时长与版本信息，方便观众在观看前做出判断。</p>
+          <span class="spw-news-date">2026-11-15</span>
+        </div>
+        <div class="spw-news-item">
+          <h4>社区评论规范更新并公开说明</h4>
+          <p>明确时间戳评论与引用片段的使用方式，同步上线举报反馈的进度提示。</p>
+          <span class="spw-news-date">2026-11-08</span>
+        </div>
+      </div>
+    </div>
+    <div class="spw-faq" id="spw-faq">
+      <h3 style="font-size:16px;margin-bottom:12px;color:var(--spw-accent-2)">常见问题</h3>
+      <details>
+        <summary>麻雀影院免费观看需要注册账号吗？</summary>
+        <p>观看大部分内容无需注册。注册后可以使用收藏、点赞、评论与专题订阅功能，也能在投稿入口提交作品并查看评审反馈进度。</p>
+      </details>
+      <details>
+        <summary>影片的画质和片源信息在哪里查看？</summary>
+        <p>每部影片的标题下方与简介区都会标注分辨率、时长与版本说明。我们坚持高清呈现，片源参数公开透明，方便你在观看前做出判断。</p>
+      </details>
+      <details>
+        <summary>如何向平台投稿原创短片？</summary>
+        <p>点击页头或页面底部的「投稿」按钮，填写作品信息与版权来源，上传完成后进入双审流程。七个工作日内会收到具体反馈，通过后安排上线档期。</p>
+      </details>
+      <details>
+        <summary>专题企划的更新频率是怎样的？</summary>
+        <p>城市观察每月两期，手艺与日常保持周更，人物访谈按季度制作，短片实验每年两季集中发布。所有更新会在首页公告条与企业动态中同步说明。</p>
+      </details>
+      <details>
+        <summary>评论可以带时间戳吗？</summary>
+        <p>可以。播放页评论区支持引用具体片段并附带时间戳，方便创作者定位反馈。我们希望评论具体、有依据，也鼓励创作者本人回复。</p>
+      </details>
+      <details>
+        <summary>发现内容或版权问题如何反馈？</summary>
+        <p>每部影片下方均有举报入口，提交后平台会核实来源并处理。涉及版权的反馈会优先响应，处理结果通过站内消息告知，这也是平台对社会责任的承诺。</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section class="spw-cta" id="spw-submit">
+  <div class="spw-cta-inner">
+    <div>
+      <h2>把你的片子，放进麻雀影院的片单</h2>
+      <p>无论你是第一次拍片，还是已经在更新自己的栏目，官网投稿入口长期开放。我们提供审片反馈、专题推荐与创作基金申请通道，让好内容被看见。</p>
+    </div>
+    <div class="spw-cta-actions">
+      <button class="spw-btn spw-btn-primary" id="spw-submit-btn-2" type="button">立即投稿</button>
+      <button class="spw-btn spw-btn-ghost" id="spw-share-btn-2" type="button">分享给朋友</button>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="spw-footer" id="spw-footer">
+  <div class="spw-footer-inner">
+    <div class="spw-footer-brand">
+      <div class="spw-brand">
+        <span class="spw-brand-logo" aria-hidden="true">
+          <svg viewBox="0 0 64 64" role="img"><path d="M18 18c7-5 17-5 24 0l6 5v21l-9 6H21l-7-7V23z" fill="#0b201a"/><circle cx="26" cy="30" r="3.4" fill="#28d98b"/><path d="M39 28l9 5-9 5z" fill="#f7f7f2"/></svg>
+        </span>
+        <span>
+          <span class="spw-brand-name">麻雀<span>影院</span></span>
+          <span class="spw-brand-sub">SPARROW CINEMA</span>
+        </span>
+      </div>
+      <p>麻雀影院官方网站，专注高清正版影像与原创短片的内容生态。深耕影视视频垂直领域，坚持正版、高清、专业的内容标准，持续运营，陪伴每一位认真看片的人。</p>
+    </div>
+    <div>
+      <h4>内容入口</h4>
+      <ul>
+        <li><a href="#spw-focus">焦点推荐</a></li>
+        <li><a href="#spw-special">专题企划</a></li>
+        <li><a href="#spw-authors">创作者矩阵</a></li>
+        <li><a href="#spw-rank">口碑榜单</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>关于平台</h4>
+      <ul>
+        <li><a href="#spw-keyex">平台解析</a></li>
+        <li><a href="#spw-news">企业动态</a></li>
+        <li><a href="#spw-faq">帮助中心</a></li>
+        <li><a href="#spw-submit">投稿入口</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>联系我们</h4>
+      <ul>
+        <li>内容合作：studio@sparrowcinema.example</li>
+        <li>版权反馈：rights@sparrowcinema.example</li>
+        <li>工作时间：周一至周五 10:00–19:00</li>
+        <li>地址：城市影像园区 3 号楼 2 层</li>
+      </ul>
+    </div>
+  </div>
+  <div class="spw-footer-bottom">
+    <span>© 2020–2026 麻雀影院 版权所有 · 官方网站 · 持续运营中 · 备案号：影备字第 20260218 号</span>
+    <span><a href="#spw-top">回到首页</a> · <a href="#spw-faq">用户协议</a> · <a href="#spw-faq">隐私说明</a></span>
+  </div>
+</footer>
+
+<div class="spw-modal-mask" id="spw-modal-mask" role="dialog" aria-modal="true" aria-labelledby="spw-modal-title">
+  <div class="spw-modal" id="spw-modal">
+    <button class="spw-modal-close" id="spw-modal-close" type="button" aria-label="关闭弹窗">×</button>
+    <h3 id="spw-modal-title">提示</h3>
+    <div id="spw-modal-body"></div>
+  </div>
+</div>
+
+<div class="spw-toast" id="spw-toast" role="status" aria-live="polite"></div>
+<button class="spw-backtop" id="spw-backtop" type="button" aria-label="回到顶部">↑</button>
+
+<script>
+(function(){
+  'use strict';
+
+  var d = document;
+  var qs = function(s, c){ return (c||d).querySelector(s); };
+  var qsa = function(s, c){ return Array.prototype.slice.call((c||d).querySelectorAll(s)); };
+
+  /* toast */
+  var toastEl = qs('#spw-toast');
+  var toastTimer = null;
+  function toast(msg){
+    toastEl.textContent = msg;
+    toastEl.classList.add('is-show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){ toastEl.classList.remove('is-show'); }, 2200);
+  }
+
+  /* mobile nav */
+  var burger = qs('#spw-burger');
+  var nav = qs('#spw-nav');
+  burger.addEventListener('click', function(){
+    var open = nav.classList.toggle('is-open');
+    burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+  qsa('#spw-nav a').forEach(function(a){
+    a.addEventListener('click', function(){
+      nav.classList.remove('is-open');
+      burger.setAttribute('aria-expanded','false');
+      qsa('#spw-nav a').forEach(function(x){ x.classList.remove('is-active'); });
+      a.classList.add('is-active');
+    });
+  });
+
+  /* search */
+  var input = qs('#spw-search-input');
+  var hint = qs('#spw-search-hint');
+  var indexData = [
+    {t:'城市候鸟', k:'纪录短片 · 城市观察'},
+    {t:'三分钟剪辑课', k:'教程干货 · 陆十九'},
+    {t:'竹编的一百次呼吸', k:'手艺与日常 · 阿柚手作'},
+    {t:'冬夜放映厅', k:'专题企划 · 持续更新'},
+    {t:'天台上的第七场演出', k:'短片实验 · 夜里电台'},
+    {t:'夜里电台', k:'创作者 · 短片实验'},
+    {t:'麻雀短片挑战', k:'征集报名 · 官网投稿'}
+  ];
+  function renderHint(val){
+    var v = (val||'').trim();
+    if(!v){
+      hint.innerHTML = '试试搜索：<b>城市候鸟</b>、<b>剪辑课</b>、<b>冬夜放映厅</b>';
+      hint.classList.add('is-open');
+      return;
+    }
+    var hits = indexData.filter(function(it){
+      return it.t.indexOf(v) > -1 || it.k.indexOf(v) > -1;
+    });
+    if(hits.length){
+      hint.innerHTML = hits.slice(0,4).map(function(it){
+        return '找到 <b>' + it.t + '</b> · ' + it.k;
+      }).join('<br>');
+    }else{
+      hint.innerHTML = '暂无与「<b>' + v.replace(/[<>&]/g,'') + '</b>」匹配的内容，换个关键词试试，或<a href="#spw-submit" style="color:#57f0b6">提交投稿</a>';
+    }
+    hint.classList.add('is-open');
+  }
+  input.addEventListener('focus', function(){ renderHint(input.value); });
+  input.addEventListener('input', function(){ renderHint(input.value); });
+  input.addEventListener('keydown', function(e){
+    if(e.key === 'Enter'){
+      e.preventDefault();
+      var v = input.value.trim();
+      if(v){
+        toast('已在麻雀影院官网检索：' + v);
+        hint.classList.remove('is-open');
+      }
+    }
+  });
+  d.addEventListener('click', function(e){
+    if(!e.target.closest('.spw-search')) hint.classList.remove('is-open');
+  });
+
+  /* likes */
+  qsa('.spw-like').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var countEl = qs('.spw-like-count', btn);
+      var base = parseInt(btn.getAttribute('data-base'), 10) || 0;
+      var cur = parseInt((countEl.textContent||'0').replace(/,/g,''), 10) || base;
+      var liked = btn.classList.toggle('is-liked');
+      var next = liked ? cur + 1 : cur - 1;
+      if(next < 0) next = 0;
+      btn.setAttribute('data-base', next);
+      countEl.textContent = next.toLocaleString('en-US');
+      toast(liked ? '已点赞，感谢支持' : '已取消点赞');
+    });
+  });
+
+  /* save */
+  qsa('.spw-save').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var on = btn.classList.toggle('is-saved');
+      btn.textContent = on ? '★ 已收藏' : '☆ 收藏';
+      toast(on ? '已加入收藏夹' : '已取消收藏');
+    });
+  });
+
+  /* copy link */
+  qsa('.spw-copy').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var text = btn.getAttribute('data-copy') || '麻雀影院';
+      var done = function(){ toast('已复制：' + text); };
+      if(navigator.clipboard && navigator.clipboard.writeText){
+        navigator.clipboard.writeText(text).then(done).catch(function(){ toast('复制失败，请手动选择文本'); });
+      }else{
+        toast('已准备好：' + text);
+      }
+    });
+  });
+
+  /* modal helpers */
+  var mask = qs('#spw-modal-mask');
+  var modalTitle = qs('#spw-modal-title');
+  var modalBody = qs('#spw-modal-body');
+  function openModal(title, html){
+    modalTitle.textContent = title;
+    modalBody.innerHTML = html;
+    mask.classList.add('is-open');
+  }
+  function closeModal(){ mask.classList.remove('is-open'); }
+  qs('#spw-modal-close').addEventListener('click', closeModal);
+  mask.addEventListener('click', function(e){ if(e.target === mask) closeModal(); });
+  d.addEventListener('keydown', function(e){ if(e.key === 'Escape') closeModal(); });
+
+  /* report */
+  qsa('.spw-report').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      openModal('举报与反馈',
+        '<p>如果你发现内容存在问题，欢迎告诉我们。麻雀影院会逐一核实，并在处理完成后通过站内消息反馈结果。</p>' +
+        '<ul class="spw-modal-list">' +
+        '<li>版权问题：请提供作品名称与权利证明</li>' +
+        '<li>内容不当：请说明具体时间点与原因</li>' +
+        '<li>播放异常：请描述设备与网络环境</li>' +
+        '</ul>' +
+        '<p style="margin-top:14px;color:#8fa19d;font-size:13px">处理时效：版权类反馈 24 小时内优先响应，其他类型 3 个工作日内回复。</p>');
+    });
+  });
+
+  /* author intro */
+  qsa('.spw-author-more').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      openModal('创作者简介', '<p>' + (btn.getAttribute('data-author') || '') + '</p>');
+    });
+  });
+
+  /* submit */
+  function openSubmit(){
+    openModal('官网投稿入口',
+      '<p>麻雀影院官方投稿入口长期开放。请准备好作品信息，我们承诺在七个工作日内给出具体反馈。</p>' +
+      '<ul class="spw-modal-list">' +
+      '<li>作品文件：三分钟以内短片或完整栏目单集</li>' +
+      '<li>必要信息：标题、简介、时长、分辨率、版权来源</li>' +
+      '<li>评审标准：叙事完成度、影像语言、声音设计、原创性</li>' +
+      '<li>上线安排：通过后进入专题排期，并同步官方发布</li>' +
+      '</ul>' +
+      '<p style="margin-top:14px;color:#8fa19d;font-size:13px">当前批次为「麻雀短片挑战 · 冬季单元」，主题：日常的重量。</p>');
+  }
+  qs('#spw-submit-btn').addEventListener('click', openSubmit);
+  qs('#spw-submit-btn-2').addEventListener('click', openSubmit);
+
+  /* share */
+  function openShare(){
+    openModal('分享麻雀影院',
+      '<p>把好内容分享给朋友，是社区持续生长的开始。</p>' +
+      '<ul class="spw-modal-list">' +
+      '<li>微信：复制链接后发送到聊天窗口</li>' +
+      '<li>微博：粘贴链接并带上 #麻雀影院发现好短片# 话题</li>' +
+      '<li>QQ：复制链接直接发送</li>' +
+      '</ul>' +
+      '<p style="margin-top:14px;color:#8fa19d;font-size:13px">也可点击影片下方的「复制链接」按钮，快速获取分享文本。</p>');
+  }
+  qs('#spw-share-btn').addEventListener('click', openShare);
+  qs('#spw-share-btn-2').addEventListener('click', openShare);
+
+  /* back to top */
+  var backtop = qs('#spw-backtop');
+  window.addEventListener('scroll', function(){
+    if(window.scrollY > 520) backtop.classList.add('is-show');
+    else backtop.classList.remove('is-show');
+  }, {passive:true});
+  backtop.addEventListener('click', function(){
+    window.scrollTo({top:0, behavior:'smooth'});
+  });
+
+  /* click on 专题卡片提示 */
+  qsa('.spw-special-card').forEach(function(card){
+    card.addEventListener('click', function(e){
+      if(e.target.closest('a')) return;
+      var h = qs('h3', card);
+      toast('专题「' + (h ? h.textContent : '') + '」详情请在官网专题页查看');
+    });
+  });
+
+})();
+</script>
+</body>
+          </html>
